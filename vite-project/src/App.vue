@@ -1,11 +1,11 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import layout from './components/父子组件传值/layout/index.vue'
+import index from './components/异步组件/index.vue'
 </script>
 
 <template>
-  <layout />
+  <index />
 </template>
 
 <style scoped>

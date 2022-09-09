@@ -20,8 +20,7 @@ const menuRef = ref('');
 const obj = {name: 'xcx'}
 
 const handleClick = (data: number[]) => {
-    console.log('data: ', data);
-    menuRef.value.handleClick2();
+    (menuRef.value as any).handleClick2();
 }
 
 </script>
